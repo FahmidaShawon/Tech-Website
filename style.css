@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+    color: #4b5258;
+}
+
+.btn {
+    margin-bottom: 15%;
+    padding: 2%;
+}
+
+.image-1 text {
+    margin: 5%;
+}
+
+.primery-color {
+    color: #2296da;
+}
+
+
+.primery-bg {
+    background: #4db5f1;
+}
+
+
+
+
+.fa-arrow-right {
+    position: relative;
+    animation: moveit 2s linear 0s infinite alternate;
+}
+
+@keyframes moveit {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 10%;
+    }
+}
+
+.submit-btn {
+    transition: 0.5s;
+    border: 1px solid#289BDE;
+}
+
+.submit-btn:hover {
+    background: #289BDE;
+    color: #f1f3ff;
+}
+
+.close-btn {
+    transition: 0.5s;
+    border: 1px solidrgb(43, 42, 42);
+}
+
+.close-btn:hover {
+    background: #333;
+    color: #f1f3ff;
+}
